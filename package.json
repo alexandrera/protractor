@@ -1,15 +1,19 @@
 {
-  "name": "udemy-protractor",
-  "version": "1.0.0",
-  "description": "End-to-End Testing with Protractor",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Alexandre R Araujo",
-  "license": "ISC",
-  "dependencies": {
-    "protractor": "^5.3.2",
-    "save": "^2.3.2"
-  }
+    "name": "udemy-protractor",
+    "version": "1.0.0",
+    "description": "End-to-End Testing with Protractor",
+    "main": "index.js",
+     "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "protractor config.js"
+    },
+    "author": "Alexandre R Araujo",
+    "license": "ISC",
+    "bug":{
+        "url": "https://github.com/alexandrera/protractor/issues"
+    }
+    "dependencies": {
+        "protractor": "^5.3.2",
+        "save": "^2.3.2"
+    }
 }
