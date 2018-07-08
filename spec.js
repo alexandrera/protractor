@@ -1,4 +1,4 @@
-// spec.js
+// spec.js file
 
 var helper = require('./helper');
 
